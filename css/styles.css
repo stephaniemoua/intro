@@ -1,0 +1,135 @@
+
+/* GENERIC TEXT */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 400%;
+  margin: 50px auto 10px auto;
+  color: #66BFBF;
+  font-weight:900;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 200%;
+  color: #66BFBF;
+  font-weight: bold;
+  margin: 40px auto 40px auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+hr {
+  width: 5%;
+  border-color: grey;
+  border-style: dotted;
+  border-width: 0 0 5px 0;
+  margin: 50px auto;
+  display: block;
+}
+/* TOP BLOCK CONTAINER */
+.top-container {
+  background-color: #ECFCFF;
+  position: relative;
+  padding-top: 100px;
+}
+
+/** IMG TOP CONTAINER **/
+.top-cloud{
+position: absolute;
+right: 300px;
+top: 50px;
+
+}
+.bottom-cloud{
+  position:absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* MIDDLE BLOCK CONTAINER */
+.middle-container{
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+/** INTRO SECTION **/
+.intro-img{
+  height: 150px;
+  width: 150px;
+}
+
+.profile{
+  width: 30%;
+  margin: auto;
+
+}
+
+/* SKILLS SECTION */
+.skill-row{
+  width: 50%;
+  margin: 0 auto 40px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skill-img-l{
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-r{
+  width: 18%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* CONTACT SECTION */
+.contact-btn {
+  margin-top: 10px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   padding: 10px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   text-align: center;
+}
+
+/* BOTTOM BLOCK CONTAINER */
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 10px 0 10px 0;
+}
+
+.footer-link{
+  color:#11999E;
+}
+
+.footer-txt{
+  color: #EAF6F6;
+  width: 30%;
+  margin: 5px auto;
+
+}
